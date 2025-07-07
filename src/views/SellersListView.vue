@@ -35,9 +35,7 @@ onMounted(() => {
     <template v-else>
       <ul class="space-y-4">
         <li v-for="seller in sellers" :key="seller.id">
-          <RouterLink :to="{ name: 'sellers-details', params: { id: seller.id } }">
-            <SellerCard :seller class="cursor-pointer hover:bg-white/20" />
-          </RouterLink>
+          <SellerCard :seller class="cursor-pointer hover:bg-white/20" />
         </li>
       </ul>
       <div v-if="sellers.length === 0" class="mt-4 text-center">No sellers found.</div>

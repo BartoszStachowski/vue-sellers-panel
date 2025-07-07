@@ -12,15 +12,15 @@
         {
           "month": "2024-01",
           "categories": [
-            { "category": "Elektronika", "unitsSold": 30, "totalRevenue": 49980 },
-            { "category": "Odzież", "unitsSold": 22, "totalRevenue": 6578 }
+            { "category": "electronics", "unitsSold": 30, "totalRevenue": 49980 },
+            { "category": "clothes", "unitsSold": 22, "totalRevenue": 6578 }
           ]
         },
         {
           "month": "2024-02",
           "categories": [
-            { "category": "Elektronika", "unitsSold": 41, "totalRevenue": 66570 },
-            { "category": "Obuwie", "unitsSold": 17, "totalRevenue": 8495 }
+            { "category": "electronics", "unitsSold": 41, "totalRevenue": 66570 },
+            { "category": "shoes", "unitsSold": 17, "totalRevenue": 8495 }
           ]
         }
       ]
@@ -37,15 +37,15 @@
         {
           "month": "2024-01",
           "categories": [
-            { "category": "Elektronika", "unitsSold": 18, "totalRevenue": 27982 },
-            { "category": "Akcesoria", "unitsSold": 13, "totalRevenue": 2891 }
+            { "category": "electronics", "unitsSold": 18, "totalRevenue": 27982 },
+            { "category": "accessories", "unitsSold": 13, "totalRevenue": 2891 }
           ]
         },
         {
           "month": "2024-02",
           "categories": [
-            { "category": "Odzież", "unitsSold": 25, "totalRevenue": 7465 },
-            { "category": "Akcesoria", "unitsSold": 15, "totalRevenue": 3534 }
+            { "category": "clothes", "unitsSold": 25, "totalRevenue": 7465 },
+            { "category": "accessories", "unitsSold": 15, "totalRevenue": 3534 }
           ]
         }
       ]
@@ -62,15 +62,15 @@
         {
           "month": "2024-01",
           "categories": [
-            { "category": "Dom", "unitsSold": 40, "totalRevenue": 18900 },
-            { "category": "Elektronika", "unitsSold": 12, "totalRevenue": 9800 }
+            { "category": "house", "unitsSold": 40, "totalRevenue": 18900 },
+            { "category": "electronics", "unitsSold": 12, "totalRevenue": 9800 }
           ]
         },
         {
           "month": "2024-02",
           "categories": [
-            { "category": "Dom", "unitsSold": 15, "totalRevenue": 7000 },
-            { "category": "Odzież", "unitsSold": 25, "totalRevenue": 20100 }
+            { "category": "house", "unitsSold": 15, "totalRevenue": 7000 },
+            { "category": "clothes", "unitsSold": 25, "totalRevenue": 20100 }
           ]
         }
       ]
@@ -87,15 +87,15 @@
         {
           "month": "2024-01",
           "categories": [
-            { "category": "Obuwie", "unitsSold": 50, "totalRevenue": 23000 },
-            { "category": "Elektronika", "unitsSold": 12, "totalRevenue": 11760 }
+            { "category": "shoes", "unitsSold": 50, "totalRevenue": 23000 },
+            { "category": "electronics", "unitsSold": 12, "totalRevenue": 11760 }
           ]
         },
         {
           "month": "2024-02",
           "categories": [
-            { "category": "Odzież", "unitsSold": 22, "totalRevenue": 12100 },
-            { "category": "Akcesoria", "unitsSold": 24, "totalRevenue": 35900 }
+            { "category": "clothes", "unitsSold": 22, "totalRevenue": 12100 },
+            { "category": "accessories", "unitsSold": 24, "totalRevenue": 35900 }
           ]
         }
       ]
@@ -112,15 +112,15 @@
         {
           "month": "2024-01",
           "categories": [
-            { "category": "Elektronika", "unitsSold": 20, "totalRevenue": 17400 },
-            { "category": "Dom", "unitsSold": 15, "totalRevenue": 4200 }
+            { "category": "electronics", "unitsSold": 20, "totalRevenue": 17400 },
+            { "category": "house", "unitsSold": 15, "totalRevenue": 4200 }
           ]
         },
         {
           "month": "2024-02",
           "categories": [
-            { "category": "Obuwie", "unitsSold": 28, "totalRevenue": 23100 },
-            { "category": "Odzież", "unitsSold": 14, "totalRevenue": 7645 }
+            { "category": "shoes", "unitsSold": 28, "totalRevenue": 23100 },
+            { "category": "clothes", "unitsSold": 14, "totalRevenue": 7645 }
           ]
         }
       ]
@@ -137,15 +137,15 @@
         {
           "month": "2024-01",
           "categories": [
-            { "category": "Akcesoria", "unitsSold": 33, "totalRevenue": 10120 },
-            { "category": "Odzież", "unitsSold": 10, "totalRevenue": 4830 }
+            { "category": "accessories", "unitsSold": 33, "totalRevenue": 10120 },
+            { "category": "clothes", "unitsSold": 10, "totalRevenue": 4830 }
           ]
         },
         {
           "month": "2024-02",
           "categories": [
-            { "category": "Elektronika", "unitsSold": 26, "totalRevenue": 35400 },
-            { "category": "Dom", "unitsSold": 20, "totalRevenue": 11480 }
+            { "category": "electronics", "unitsSold": 26, "totalRevenue": 35400 },
+            { "category": "house", "unitsSold": 20, "totalRevenue": 11480 }
           ]
         }
       ]
@@ -162,15 +162,15 @@
         {
           "month": "2024-01",
           "categories": [
-            { "category": "Odzież", "unitsSold": 18, "totalRevenue": 5430 },
-            { "category": "Akcesoria", "unitsSold": 9, "totalRevenue": 2235 }
+            { "category": "clothes", "unitsSold": 18, "totalRevenue": 5430 },
+            { "category": "accessories", "unitsSold": 9, "totalRevenue": 2235 }
           ]
         },
         {
           "month": "2024-02",
           "categories": [
-            { "category": "Elektronika", "unitsSold": 28, "totalRevenue": 28800 },
-            { "category": "Obuwie", "unitsSold": 11, "totalRevenue": 4780 }
+            { "category": "electronics", "unitsSold": 28, "totalRevenue": 28800 },
+            { "category": "shoes", "unitsSold": 11, "totalRevenue": 4780 }
           ]
         }
       ]
@@ -187,15 +187,15 @@
         {
           "month": "2024-01",
           "categories": [
-            { "category": "Obuwie", "unitsSold": 32, "totalRevenue": 15100 },
-            { "category": "Dom", "unitsSold": 25, "totalRevenue": 8100 }
+            { "category": "shoes", "unitsSold": 32, "totalRevenue": 15100 },
+            { "category": "house", "unitsSold": 25, "totalRevenue": 8100 }
           ]
         },
         {
           "month": "2024-02",
           "categories": [
-            { "category": "Odzież", "unitsSold": 29, "totalRevenue": 11945 },
-            { "category": "Akcesoria", "unitsSold": 15, "totalRevenue": 46210 }
+            { "category": "clothes", "unitsSold": 29, "totalRevenue": 11945 },
+            { "category": "accessories", "unitsSold": 15, "totalRevenue": 46210 }
           ]
         }
       ]
@@ -212,15 +212,15 @@
         {
           "month": "2024-01",
           "categories": [
-            { "category": "Akcesoria", "unitsSold": 17, "totalRevenue": 4120 },
-            { "category": "Elektronika", "unitsSold": 20, "totalRevenue": 19900 }
+            { "category": "accessories", "unitsSold": 17, "totalRevenue": 4120 },
+            { "category": "electronics", "unitsSold": 20, "totalRevenue": 19900 }
           ]
         },
         {
           "month": "2024-02",
           "categories": [
-            { "category": "Dom", "unitsSold": 25, "totalRevenue": 7890 },
-            { "category": "Obuwie", "unitsSold": 26, "totalRevenue": 22467 }
+            { "category": "house", "unitsSold": 25, "totalRevenue": 7890 },
+            { "category": "shoes", "unitsSold": 26, "totalRevenue": 22467 }
           ]
         }
       ]
@@ -237,15 +237,15 @@
         {
           "month": "2024-01",
           "categories": [
-            { "category": "Odzież", "unitsSold": 16, "totalRevenue": 7150 },
-            { "category": "Obuwie", "unitsSold": 25, "totalRevenue": 11950 }
+            { "category": "clothes", "unitsSold": 16, "totalRevenue": 7150 },
+            { "category": "shoes", "unitsSold": 25, "totalRevenue": 11950 }
           ]
         },
         {
           "month": "2024-02",
           "categories": [
-            { "category": "Dom", "unitsSold": 20, "totalRevenue": 6480 },
-            { "category": "Akcesoria", "unitsSold": 21, "totalRevenue": 35270 }
+            { "category": "house", "unitsSold": 20, "totalRevenue": 6480 },
+            { "category": "accessories", "unitsSold": 21, "totalRevenue": 35270 }
           ]
         }
       ]
@@ -262,15 +262,15 @@
         {
           "month": "2024-01",
           "categories": [
-            { "category": "Akcesoria", "unitsSold": 12, "totalRevenue": 3825 },
-            { "category": "Odzież", "unitsSold": 18, "totalRevenue": 6210 }
+            { "category": "accessories", "unitsSold": 12, "totalRevenue": 3825 },
+            { "category": "clothes", "unitsSold": 18, "totalRevenue": 6210 }
           ]
         },
         {
           "month": "2024-02",
           "categories": [
-            { "category": "Elektronika", "unitsSold": 15, "totalRevenue": 14400 },
-            { "category": "Dom", "unitsSold": 25, "totalRevenue": 23132 }
+            { "category": "electronics", "unitsSold": 15, "totalRevenue": 14400 },
+            { "category": "house", "unitsSold": 25, "totalRevenue": 23132 }
           ]
         }
       ]
@@ -287,15 +287,15 @@
         {
           "month": "2024-01",
           "categories": [
-            { "category": "Elektronika", "unitsSold": 24, "totalRevenue": 16800 },
-            { "category": "Odzież", "unitsSold": 21, "totalRevenue": 6023 }
+            { "category": "electronics", "unitsSold": 24, "totalRevenue": 16800 },
+            { "category": "clothes", "unitsSold": 21, "totalRevenue": 6023 }
           ]
         },
         {
           "month": "2024-02",
           "categories": [
-            { "category": "Obuwie", "unitsSold": 27, "totalRevenue": 15025 },
-            { "category": "Dom", "unitsSold": 21, "totalRevenue": 28263 }
+            { "category": "shoes", "unitsSold": 27, "totalRevenue": 15025 },
+            { "category": "house", "unitsSold": 21, "totalRevenue": 28263 }
           ]
         }
       ]

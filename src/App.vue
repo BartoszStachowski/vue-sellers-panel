@@ -8,7 +8,6 @@ const isExpanded = ref(true);
 
 <template>
   <div class="app">
-    <!-- Sidebar -->
     <AppSidebar :isExpanded />
 
     <div class="w-full p-4">
@@ -28,7 +27,7 @@ const isExpanded = ref(true);
 <style>
 .app {
   display: flex;
-  background-color: #020617; /* Light background for contrast */
+  background-color: #020617;
   color: white;
 }
 </style>

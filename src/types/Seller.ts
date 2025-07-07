@@ -12,7 +12,7 @@ interface SellerMonthlySales {
 }
 
 export interface Seller {
-  sellerId: number;
+  id: number;
   name: string;
   hireDate: string;
   team: Team;

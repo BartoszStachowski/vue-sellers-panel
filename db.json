@@ -1,0 +1,304 @@
+{
+  "sellers": [
+    {
+      "sellerId": 1,
+      "name": "Jan Kowalski",
+      "hireDate": "2022-03-15",
+      "team": "POB",
+      "totalUnitsSold": 110,
+      "totalRevenue": 131623,
+      "averageUnitsSoldPerMonth": 55,
+      "sales": [
+        {
+          "month": "2024-01",
+          "categories": [
+            { "category": "Elektronika", "unitsSold": 30, "totalRevenue": 49980 },
+            { "category": "Odzież", "unitsSold": 22, "totalRevenue": 6578 }
+          ]
+        },
+        {
+          "month": "2024-02",
+          "categories": [
+            { "category": "Elektronika", "unitsSold": 41, "totalRevenue": 66570 },
+            { "category": "Obuwie", "unitsSold": 17, "totalRevenue": 8495 }
+          ]
+        }
+      ]
+    },
+    {
+      "sellerId": 2,
+      "name": "Anna Nowak",
+      "hireDate": "2023-07-01",
+      "team": "SOL",
+      "totalUnitsSold": 71,
+      "totalRevenue": 41872,
+      "averageUnitsSoldPerMonth": 35.5,
+      "sales": [
+        {
+          "month": "2024-01",
+          "categories": [
+            { "category": "Elektronika", "unitsSold": 18, "totalRevenue": 27982 },
+            { "category": "Akcesoria", "unitsSold": 13, "totalRevenue": 2891 }
+          ]
+        },
+        {
+          "month": "2024-02",
+          "categories": [
+            { "category": "Odzież", "unitsSold": 25, "totalRevenue": 7465 },
+            { "category": "Akcesoria", "unitsSold": 15, "totalRevenue": 3534 }
+          ]
+        }
+      ]
+    },
+    {
+      "sellerId": 3,
+      "name": "Michał Zieliński",
+      "hireDate": "2021-10-10",
+      "team": "AP",
+      "totalUnitsSold": 92,
+      "totalRevenue": 55800,
+      "averageUnitsSoldPerMonth": 46,
+      "sales": [
+        {
+          "month": "2024-01",
+          "categories": [
+            { "category": "Dom", "unitsSold": 40, "totalRevenue": 18900 },
+            { "category": "Elektronika", "unitsSold": 12, "totalRevenue": 9800 }
+          ]
+        },
+        {
+          "month": "2024-02",
+          "categories": [
+            { "category": "Dom", "unitsSold": 15, "totalRevenue": 7000 },
+            { "category": "Odzież", "unitsSold": 25, "totalRevenue": 20100 }
+          ]
+        }
+      ]
+    },
+    {
+      "sellerId": 4,
+      "name": "Katarzyna Mazur",
+      "hireDate": "2020-04-22",
+      "team": "POB",
+      "totalUnitsSold": 108,
+      "totalRevenue": 82760,
+      "averageUnitsSoldPerMonth": 54,
+      "sales": [
+        {
+          "month": "2024-01",
+          "categories": [
+            { "category": "Obuwie", "unitsSold": 50, "totalRevenue": 23000 },
+            { "category": "Elektronika", "unitsSold": 12, "totalRevenue": 11760 }
+          ]
+        },
+        {
+          "month": "2024-02",
+          "categories": [
+            { "category": "Odzież", "unitsSold": 22, "totalRevenue": 12100 },
+            { "category": "Akcesoria", "unitsSold": 24, "totalRevenue": 35900 }
+          ]
+        }
+      ]
+    },
+    {
+      "sellerId": 5,
+      "name": "Tomasz Duda",
+      "hireDate": "2019-12-15",
+      "team": "SOL",
+      "totalUnitsSold": 77,
+      "totalRevenue": 52345,
+      "averageUnitsSoldPerMonth": 38.5,
+      "sales": [
+        {
+          "month": "2024-01",
+          "categories": [
+            { "category": "Elektronika", "unitsSold": 20, "totalRevenue": 17400 },
+            { "category": "Dom", "unitsSold": 15, "totalRevenue": 4200 }
+          ]
+        },
+        {
+          "month": "2024-02",
+          "categories": [
+            { "category": "Obuwie", "unitsSold": 28, "totalRevenue": 23100 },
+            { "category": "Odzież", "unitsSold": 14, "totalRevenue": 7645 }
+          ]
+        }
+      ]
+    },
+    {
+      "sellerId": 6,
+      "name": "Alicja Lis",
+      "hireDate": "2023-01-17",
+      "team": "AP",
+      "totalUnitsSold": 89,
+      "totalRevenue": 61830,
+      "averageUnitsSoldPerMonth": 44.5,
+      "sales": [
+        {
+          "month": "2024-01",
+          "categories": [
+            { "category": "Akcesoria", "unitsSold": 33, "totalRevenue": 10120 },
+            { "category": "Odzież", "unitsSold": 10, "totalRevenue": 4830 }
+          ]
+        },
+        {
+          "month": "2024-02",
+          "categories": [
+            { "category": "Elektronika", "unitsSold": 26, "totalRevenue": 35400 },
+            { "category": "Dom", "unitsSold": 20, "totalRevenue": 11480 }
+          ]
+        }
+      ]
+    },
+    {
+      "sellerId": 7,
+      "name": "Piotr Baran",
+      "hireDate": "2022-05-08",
+      "team": "POB",
+      "totalUnitsSold": 66,
+      "totalRevenue": 42245,
+      "averageUnitsSoldPerMonth": 33,
+      "sales": [
+        {
+          "month": "2024-01",
+          "categories": [
+            { "category": "Odzież", "unitsSold": 18, "totalRevenue": 5430 },
+            { "category": "Akcesoria", "unitsSold": 9, "totalRevenue": 2235 }
+          ]
+        },
+        {
+          "month": "2024-02",
+          "categories": [
+            { "category": "Elektronika", "unitsSold": 28, "totalRevenue": 28800 },
+            { "category": "Obuwie", "unitsSold": 11, "totalRevenue": 4780 }
+          ]
+        }
+      ]
+    },
+    {
+      "sellerId": 8,
+      "name": "Magdalena Sowa",
+      "hireDate": "2023-04-20",
+      "team": "SOL",
+      "totalUnitsSold": 101,
+      "totalRevenue": 81355,
+      "averageUnitsSoldPerMonth": 50.5,
+      "sales": [
+        {
+          "month": "2024-01",
+          "categories": [
+            { "category": "Obuwie", "unitsSold": 32, "totalRevenue": 15100 },
+            { "category": "Dom", "unitsSold": 25, "totalRevenue": 8100 }
+          ]
+        },
+        {
+          "month": "2024-02",
+          "categories": [
+            { "category": "Odzież", "unitsSold": 29, "totalRevenue": 11945 },
+            { "category": "Akcesoria", "unitsSold": 15, "totalRevenue": 46210 }
+          ]
+        }
+      ]
+    },
+    {
+      "sellerId": 9,
+      "name": "Krzysztof Kurek",
+      "hireDate": "2020-11-11",
+      "team": "AP",
+      "totalUnitsSold": 88,
+      "totalRevenue": 54377,
+      "averageUnitsSoldPerMonth": 44,
+      "sales": [
+        {
+          "month": "2024-01",
+          "categories": [
+            { "category": "Akcesoria", "unitsSold": 17, "totalRevenue": 4120 },
+            { "category": "Elektronika", "unitsSold": 20, "totalRevenue": 19900 }
+          ]
+        },
+        {
+          "month": "2024-02",
+          "categories": [
+            { "category": "Dom", "unitsSold": 25, "totalRevenue": 7890 },
+            { "category": "Obuwie", "unitsSold": 26, "totalRevenue": 22467 }
+          ]
+        }
+      ]
+    },
+    {
+      "sellerId": 10,
+      "name": "Ewa Jabłońska",
+      "hireDate": "2021-06-03",
+      "team": "POB",
+      "totalUnitsSold": 82,
+      "totalRevenue": 60720,
+      "averageUnitsSoldPerMonth": 41,
+      "sales": [
+        {
+          "month": "2024-01",
+          "categories": [
+            { "category": "Odzież", "unitsSold": 16, "totalRevenue": 7150 },
+            { "category": "Obuwie", "unitsSold": 25, "totalRevenue": 11950 }
+          ]
+        },
+        {
+          "month": "2024-02",
+          "categories": [
+            { "category": "Dom", "unitsSold": 20, "totalRevenue": 6480 },
+            { "category": "Akcesoria", "unitsSold": 21, "totalRevenue": 35270 }
+          ]
+        }
+      ]
+    },
+    {
+      "sellerId": 11,
+      "name": "Paweł Olszewski",
+      "hireDate": "2022-02-13",
+      "team": "AP",
+      "totalUnitsSold": 70,
+      "totalRevenue": 47567,
+      "averageUnitsSoldPerMonth": 35,
+      "sales": [
+        {
+          "month": "2024-01",
+          "categories": [
+            { "category": "Akcesoria", "unitsSold": 12, "totalRevenue": 3825 },
+            { "category": "Odzież", "unitsSold": 18, "totalRevenue": 6210 }
+          ]
+        },
+        {
+          "month": "2024-02",
+          "categories": [
+            { "category": "Elektronika", "unitsSold": 15, "totalRevenue": 14400 },
+            { "category": "Dom", "unitsSold": 25, "totalRevenue": 23132 }
+          ]
+        }
+      ]
+    },
+    {
+      "sellerId": 12,
+      "name": "Monika Król",
+      "hireDate": "2019-08-24",
+      "team": "SOL",
+      "totalUnitsSold": 93,
+      "totalRevenue": 66111,
+      "averageUnitsSoldPerMonth": 46.5,
+      "sales": [
+        {
+          "month": "2024-01",
+          "categories": [
+            { "category": "Elektronika", "unitsSold": 24, "totalRevenue": 16800 },
+            { "category": "Odzież", "unitsSold": 21, "totalRevenue": 6023 }
+          ]
+        },
+        {
+          "month": "2024-02",
+          "categories": [
+            { "category": "Obuwie", "unitsSold": 27, "totalRevenue": 15025 },
+            { "category": "Dom", "unitsSold": 21, "totalRevenue": 28263 }
+          ]
+        }
+      ]
+    }
+  ]
+}

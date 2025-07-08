@@ -11,7 +11,7 @@ const formatTotalRevenue = computed(() => {
 </script>
 
 <template>
-  <div class="gap-4 rounded-2xl bg-white p-6 shadow-lg dark:bg-gray-800">
+  <div class="gap-4 rounded-2xl bg-gray-800 p-6 shadow-lg">
     <RouterLink :to="{ name: 'sellers-details', params: { id: seller.id } }">
       <h2 data-testid="seller-name" class="mb-1 text-2xl font-bold text-white">
         {{ seller.name }}

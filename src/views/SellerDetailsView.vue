@@ -1,28 +1,21 @@
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue';
-import SellersService from '@/services/SellersService';
-import type { Seller } from '@/types/Seller';
-import SalesChart from '@/components/SalesChart.vue';
+import { onMounted, computed } from 'vue';
+import SalesChart from '@/components/SellersList/SalesChart.vue';
+import { useRouter } from 'vue-router';
+import { ArrowLeft } from 'lucide-vue-next';
+import AppLoader from '@/components/base/AppLoader.vue';
+import { useSellersStore } from '@/stores/sellers';
+import { storeToRefs } from 'pinia';
 
 const props = defineProps<{
   id: string;
 }>();
 
-const seller = ref<Seller | null>(null);
-const isLoaded = ref(false);
+const router = useRouter();
 
-const getSeller = () => {
-  SellersService.getSeller(parseInt(props.id))
-    .then((response) => {
-      seller.value = response.data;
-    })
-    .catch((error) => {
-      console.error('Error fetching sellers:', error);
-    })
-    .finally(() => {
-      isLoaded.value = true;
-    });
-};
+const sellersStore = useSellersStore();
+const { getSeller } = sellersStore;
+const { seller, isLoaded } = storeToRefs(sellersStore);
 
 const categorySummary = computed(() => {
   const summary: Record<string, { unitsSold: number; totalRevenue: number }> = {};
@@ -35,23 +28,32 @@ const categorySummary = computed(() => {
       summary[cat.category].totalRevenue += cat.totalRevenue;
     });
   });
-  // Zwróć jako tablicę (do v-for)
   return Object.entries(summary).map(([category, data]) => ({
     category,
     ...data,
   }));
 });
 
+const back = () => {
+  router.push({ name: 'sellers-list' });
+};
+
 onMounted(() => {
-  getSeller();
+  getSeller(parseInt(props.id));
 });
 </script>
 <template>
+  <div v-if="!isLoaded" class="flex h-[90vh] items-center justify-center text-center">
+    <AppLoader />
+  </div>
   <div
     v-if="seller"
     class="mx-auto flex max-w-lg flex-col gap-4 rounded-2xl bg-white p-6 shadow-lg dark:bg-gray-800"
   >
     <div>
+      <button class="mb-2 flex cursor-pointer gap-1 hover:text-gray-200" @click="back">
+        <ArrowLeft /> Back
+      </button>
       <h2 class="mb-1 text-2xl font-bold text-gray-900 dark:text-white">
         {{ seller.name }}
       </h2>

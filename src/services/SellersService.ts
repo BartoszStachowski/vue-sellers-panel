@@ -11,8 +11,12 @@ const apiClient = axios.create({
 });
 
 export default {
-  getSellers(perPage: number, page: number) {
-    return apiClient.get<Seller[]>(`/sellers?_limit=${perPage}&_page=${page}`);
+  getSellers(page?: number) {
+    if (!page) {
+      return apiClient.get<Seller[]>(`/sellers`);
+    }
+
+    return apiClient.get<Seller[]>(`/sellers?_limit=3&_page=${page}`);
   },
   getSeller(id: number) {
     return apiClient.get<Seller>(`/sellers/${id}`);

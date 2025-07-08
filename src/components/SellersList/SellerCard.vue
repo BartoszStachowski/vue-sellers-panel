@@ -6,9 +6,7 @@ defineProps<{ seller: Seller }>();
 </script>
 
 <template>
-  <div
-    class="mx-auto flex max-w-lg flex-col gap-4 rounded-2xl bg-white p-6 shadow-lg dark:bg-gray-800"
-  >
+  <div class="gap-4 rounded-2xl bg-white p-6 shadow-lg dark:bg-gray-800">
     <RouterLink :to="{ name: 'sellers-details', params: { id: seller.id } }">
       <div>
         <h2 class="mb-1 text-2xl font-bold text-gray-900 dark:text-white">

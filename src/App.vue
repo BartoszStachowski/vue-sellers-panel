@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import AppSidebar from '@/components/AppSidebar.vue';
+import AppSidebar from '@/components/layout/AppSidebar.vue';
 import { PanelLeft } from 'lucide-vue-next';
 import { ref } from 'vue';
 const isSidebarOpen = ref(false);
@@ -23,7 +23,7 @@ const isSidebarOpen = ref(false);
     <div class="lg:ml-64">
       <header class="p-4 lg:hidden">
         <button
-          class="flex h-10 w-10 items-center justify-center rounded-md text-white hover:bg-gray-800"
+          class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-md text-white hover:bg-gray-800"
           @click="isSidebarOpen = true"
         >
           <PanelLeft :size="28" />

@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router';
-import { House, List } from 'lucide-vue-next';
+import { House, List, X } from 'lucide-vue-next';
+import { defineProps, defineEmits } from 'vue';
 
 defineProps<{
   isExpanded: boolean;
 }>();
+const emit = defineEmits(['close']);
 
 const routeItems = [
   { label: 'Home', name: 'home', path: '/', icon: House },
@@ -13,17 +15,12 @@ const routeItems = [
 </script>
 
 <template>
-  <aside
-    class="min-h-screen overflow-hidden bg-gray-900 p-4 transition-all duration-200"
-    :class="[isExpanded ? 'w-64' : 'w-16']"
-  >
-    <h3
-      class="mb-2 text-xs text-gray-400 uppercase transition-opacity duration-300"
-      :class="isExpanded ? 'opacity-100' : 'opacity-0'"
-    >
-      Menu
-    </h3>
+  <aside class="flex h-full flex-col bg-gray-900 p-4 transition-all duration-300">
+    <button class="mb-2 self-end lg:hidden" @click="emit('close')" v-if="isExpanded">
+      <X />
+    </button>
 
+    <h3 class="mb-2 text-xs text-gray-400 uppercase">Menu</h3>
     <div class="flex flex-col gap-1">
       <RouterLink
         v-for="route in routeItems"
@@ -31,18 +28,13 @@ const routeItems = [
         :key="route.name"
         :class="{
           'border-r-4 border-blue-500 bg-gray-800': $route.path === route.path,
-          'justify-center': !isExpanded,
         }"
         :to="{ name: route.name }"
+        @click="emit('close')"
       >
-        <div>
-          <Component :is="route.icon" />
-        </div>
-        <div v-if="isExpanded" class="font-light transition-opacity duration-300">
-          {{ route.label }}
-        </div>
+        <Component :is="route.icon" />
+        <span>{{ route.label }}</span>
       </RouterLink>
     </div>
   </aside>
 </template>
-<style scoped></style>

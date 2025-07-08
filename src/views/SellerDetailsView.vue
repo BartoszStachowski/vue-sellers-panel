@@ -79,7 +79,6 @@ onMounted(() => {
       </div>
     </div>
 
-    <!-- Dodatkowe podsumowanie: sprzedaż według kategorii -->
     <div v-if="categorySummary.length" class="mt-4">
       <div class="mb-2 font-semibold text-gray-200">Sales by category:</div>
       <ul class="divide-y divide-gray-700">

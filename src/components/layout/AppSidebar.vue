@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { RouterLink } from 'vue-router';
+import { RouterLink, useRoute } from 'vue-router';
 import { House, List, X } from 'lucide-vue-next';
 import { defineProps, defineEmits } from 'vue';
 
@@ -7,10 +7,11 @@ defineProps<{
   isExpanded: boolean;
 }>();
 const emit = defineEmits(['close']);
+const router = useRoute();
 
 const routeItems = [
   { label: 'Home', name: 'home', path: '/', icon: House },
-  { label: 'Sellers', name: 'sellers-list', path: '/sellers-list', icon: List },
+  { label: 'Sellers', name: 'sellers-list', path: '/sellers', icon: List },
 ];
 </script>
 
@@ -27,7 +28,7 @@ const routeItems = [
         class="flex items-center gap-2 rounded px-4 py-2 transition-all duration-200 hover:bg-gray-800"
         :key="route.name"
         :class="{
-          'border-r-4 border-blue-500 bg-gray-800': $route.path === route.path,
+          'border-r-4 border-blue-500 bg-gray-800': router.path === route.path,
         }"
         :to="{ name: route.name }"
         @click="emit('close')"

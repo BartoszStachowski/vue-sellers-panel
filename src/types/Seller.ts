@@ -19,5 +19,5 @@ export interface Seller {
   totalUnitsSold: number;
   totalRevenue: number;
   averageUnitsSoldPerMonth: number;
-  sales: SellerMonthlySales[];
+  sales?: SellerMonthlySales[];
 }

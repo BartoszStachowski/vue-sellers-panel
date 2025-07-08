@@ -13,6 +13,9 @@ const router = createRouter({
     },
     {
       path: '/sellers',
+      props: (route) => ({
+        page: parseInt(route.query.page as string) || 1,
+      }),
       name: 'sellers-list',
       component: SellersListView,
     },

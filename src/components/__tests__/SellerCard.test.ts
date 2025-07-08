@@ -11,6 +11,7 @@ const mockSeller: Seller = {
   totalUnitsSold: 110,
   totalRevenue: 131623,
   averageUnitsSoldPerMonth: 55,
+  sales: [],
 };
 
 describe('SellerCard Component', () => {
